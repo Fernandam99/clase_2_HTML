@@ -1,0 +1,80 @@
+:root {
+            --rojo-oscuro: #8b000093;
+            --rojo-medio: #b63737;
+            --rojo-claro: #d65252;
+            --negro: #380808;
+            --blanco: #F5F5F5;
+        }
+body, p, h1, li {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: normal;
+    text-shadow: none; 
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    padding: 2rem;
+    flex: 1;
+} 
+
+header{
+    background-image: url('../_img/KY7U4RJERBHAZELS4B4VSGJ464.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover; /* Cubre todo el espacio */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Texto blanco para contraste */
+    text-align: center;
+    padding: 100px 20px; /* Ajusta el padding para altura del banner */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejor legibilidad */
+}
+
+nav {
+            background-color: var(--rojo-oscuro);
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: var(--blanco);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: var(--negro);
+            color: var(--blanco);
+        }
+        
+        /* Estilo para la página activa */
+        nav a.active {
+            background-color: var(--negro);
+        }
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+}
