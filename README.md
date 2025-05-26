@@ -15,7 +15,7 @@ El sitio está compuesto por varias páginas HTML enlazadas entre sí, cada una 
 ## Estructura de carpetas
 
 - `_html/`: Contiene todas las páginas HTML del sitio, separadas por temática.
-- `_style/`: Contiene el archivo `style.css` con los estilos aplicados al sitio.
+- `_css/`: Contiene el archivo `style.css` con los estilos aplicados al sitio.
 - `_img/`: Contiene las imágenes utilizadas en el proyecto.
 - `.gitignore`: Archivo que indica qué archivos deben ser ignorados por Git.
 - `README.md`: Este archivo, que documenta el proyecto.
